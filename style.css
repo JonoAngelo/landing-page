@@ -1,0 +1,28 @@
+body {
+    font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style-type: none;
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 42px;
+}
