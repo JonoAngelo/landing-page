@@ -10,10 +10,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 16px;
     background-color: #1f2937;
     color: white;
     padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 a {
@@ -35,6 +36,7 @@ ul {
     height: 300px;
     background-color: #1f2937;
     color: white;
+    padding: 100px 200px 100px 200px;
 }
 
 .heroleft {
@@ -44,6 +46,7 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     padding: 32px;
+    padding-left: 0;
 }
 
 .heroleft p {
@@ -80,7 +83,10 @@ h1 {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    height: 350px;
+    height: 450px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
 }
 
 h2 {
@@ -108,4 +114,68 @@ h2 {
     border-color: #3882F6;
     border-style: solid;
     margin-bottom: 10px;
+}
+
+.testimonial {
+    height: 400px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.sign {
+    font-style: normal;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.cta {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.ctabox {
+    height: 150px;
+    flex-grow: 1;
+    border-radius: 7px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.ctatext1 {
+    font-size: 36px;
+}
+.ctatext2 {
+    font-weight: 24px;
+}
+.signup2 {
+    border: solid white;
+    padding: 10px 25px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
