@@ -6,6 +6,8 @@ body {
     margin: 0 auto;
 }
 
+/* nav bar -> layout then logo then links */
+
 .nav {
     display: flex;
     align-items: center;
@@ -15,11 +17,14 @@ body {
     padding: 20px;
     padding-left: 200px;
     padding-right: 200px;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
     color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
@@ -29,6 +34,8 @@ ul {
     list-style-type: none;
     display: flex;
 }
+
+/* hero section -> layout container splitting left and right, then organise left side, then right side */
 
 .hero {
     display: flex;
@@ -49,8 +56,15 @@ ul {
     padding-left: 0;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
 .heroleft p {
     font-size: 18px;
+    padding-right: 50px;
 }
 
 button {
@@ -60,6 +74,7 @@ button {
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .heroright {
@@ -71,11 +86,8 @@ button {
     height: 300px;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    margin: 0;
-}
+/* info section -> column layout for heading and images, with images and text held in another container, and each image and subtext in it's own container. 
+infoti inside infocon, infocon and h2 inside info */
 
 .info {
     display: flex;
@@ -116,6 +128,8 @@ h2 {
     margin-bottom: 10px;
 }
 
+/* testimonial section */
+
 .testimonial {
     height: 400px;
     background-color: #E5E7EB;
@@ -140,6 +154,8 @@ h2 {
     align-self: flex-end;
     margin: 0;
 }
+
+/* call to action -> see html..having the 2 texts in one div makes flex see it as one element and button as another, so the texts run one in column as opposed to all in a row */
 
 .cta {
     height: 350px;
@@ -168,7 +184,10 @@ h2 {
 .signup2 {
     border: solid white;
     padding: 10px 25px;
+    font-size: 18px;
 }
+
+/* footer section */
 
 .footer {
     height: 100px;
